@@ -39,8 +39,5 @@ def cds():
     seq = input("Enter your Sequence (CDS): ")
     return "atgcatgcGAAGACAActcaAATG" + seq + "GCTTcgagaagtcttcATGCATGC"
 
-def term():
-    seq = input("Enter your Sequence (Terminator): ")
-    return "atgcatgcGAAGACAActcaGCTT" + seq + "CGCTcgagaagtcttcATGCATGC"
 
 main()
