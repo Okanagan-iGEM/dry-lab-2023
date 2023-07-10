@@ -7,8 +7,7 @@ filename = sys.argv[1]
 record = next(SeqIO.parse(filename, 'fasta'))
 seq = record.seq
 
-# print(seq)
-
+#no
 VP2 = seq[211:464]
 VP1 = seq[484:901]
 VP3 = seq[901:1159]
