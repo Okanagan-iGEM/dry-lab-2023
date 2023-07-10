@@ -1,5 +1,5 @@
 def main():
-    print("What type of part is it (1-4)?")
+    print("What type of part is it (1-4)? fuck")
     print("Options include: (1) Promoter, (2) RBS, (3) CDS, or (4) Terminator")
     key = False
     choice = -1
